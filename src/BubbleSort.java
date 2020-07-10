@@ -16,6 +16,8 @@ public class BubbleSort {
                 }
             }
         }
-
+        System.out.println("Sorted arrays");
+        for(int m=0;m<size;m++)
+            System.out.print(arr[m]+" ");
     }
 }
